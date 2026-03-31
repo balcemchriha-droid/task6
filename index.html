@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Demo html website</title>
 </head>
 <body>
     <hr>
@@ -46,21 +46,33 @@
     </video>
     <hr>
     <h2>Form Table</h2>
-    <form action="post" method="html">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name"><br>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email"><br>
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password"><br>
-        <label for="age">Age</label>
-        <input type="number" name="age" id="age" min="5" max="80"><br>
-        <label for="date">Date</label>
-        <input type="date" id="date" name="date"><br>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
-        <button>Click</button> 
-    </form>
+    <table>
+        <tr>
+        <td><label for="name">Name</label></td>
+        <td><input type="text" id="name" name="name"></td>
+        </tr>
+        <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="email" name="email" id="email"></td>
+        </tr>
+        <tr>
+        <td><label for="password">Password</label></td>
+        <td><input type="password" id="password" name="password"></td>
+        </tr>
+        <tr>
+        <td><label for="age">Age</label></td>
+        <td><input type="number" name="age" id="age" min="5" max="80"></td>
+        </tr>
+        <tr>
+        <td><label for="date">Date</label></td>
+        <td><input type="date" id="date" name="date"></td>
+        </tr>
+        <tr>
+        <td colspan="2"><button type="submit" value="submit">Submit</button>
+        <button type="reset" value="reset">Reset</button>
+        <button type="button" value="button">Click</button></td>
+        </tr> 
+    </table>
     <hr>
     <h2>Iframe</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Mf_aBzjFZ7Q?si=VLizPMPh4R5GG3ah" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
